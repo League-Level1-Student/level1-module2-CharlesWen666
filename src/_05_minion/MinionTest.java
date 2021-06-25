@@ -52,11 +52,14 @@ public class MinionTest {
 	public void testSetters() {
 		Minion stuart = new Minion("Stuart", 1, "yellow", "");
 
-		stuart.setMaster("T. Rex");
-		assertEquals("T. Rex", stuart.getMaster());
+		stuart.setName("Stuart");
+		assertEquals("Stuart", stuart.getName());
 
-		stuart.setMaster("Napoleon");
-		assertEquals("Napoleon", stuart.getMaster());
+		stuart.setEyes(1);
+		assertEquals(1, stuart.getEyes());
+		
+		stuart.setColor("yellow");
+		assertEquals("yellow", stuart.getColor());
 	}
 
 }

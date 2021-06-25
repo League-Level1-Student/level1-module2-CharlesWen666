@@ -43,7 +43,7 @@ class Kettle {
 
 	class Water {
 
-		private boolean isHot = false;
+		private boolean isHot = true;
 
 		public boolean isHot() {
 			return this.isHot;
